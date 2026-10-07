@@ -64,7 +64,7 @@ A Silver não modifica as tabelas Bronze. Suas tabelas são reconstruídas em ov
 
 As consultas 5 e 6 exibem todos os líderes se houver empate.
 
-## 3. Regras de negócio e decisões explícitas
+## Regras de negócio e decisões explícitas
 
 - **Ausência não é zero:** dinheiro zerado ou negativo vira NULL. Lucro exige orçamento e receita conhecidos; margem exige receita positiva. Lucro negativo é válido.
 - **Margem:** `(receita - orçamento) / receita * 100`; não é retorno sobre investimento (ROI).

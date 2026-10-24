@@ -93,9 +93,3 @@ As consultas 5 e 6 exibem todos os líderes se houver empate.
 ## Autor
 
 Samuel Alves Navarro
-
-## Validação realizada
-
-As transformações Silver, a modelagem Gold e as seis consultas foram executadas localmente com PySpark 3.5.3 e os cinco CSVs fornecidos. Passaram as verificações de grão, unicidade, integridade das pontes, faixa de notas, forward fill, formatos de datas e valores monetários (incluindo K/M e separadores brasileiros/americanos).
-
-No teste local, as cotações foram fixtures sintéticas e as tabelas foram materializadas em Parquet para testar a lógica. Nenhuma cotação de teste foi incluída nos notebooks entregues. A gravação Delta no Unity Catalog, as permissões do Volume e o acesso real à API devem ser confirmados ao executar a sequência no Databricks. Os valores finais das análises dependem da PTAX real dessa execução.
